@@ -35,8 +35,10 @@ body
             display: block
             padding: 16px 16px
             text-decoration: none
+            color: $tertiary
         a:hover
             background-color: $tertiary
+            color: $secondary
 
 .main-panel
     margin-left: 15%
@@ -53,13 +55,14 @@ header
 h1 
     font-size: 60px
     text-align: left
-    &::first-letter
-        color: $primary
-        font-size: 90px
 
 address
     font-family: $tertiary-font
     text-align: left
+
+.first-letter::first-letter
+    color: $primary
+    font-size: 1.5em
 
 .sharp
     &.md-dark 

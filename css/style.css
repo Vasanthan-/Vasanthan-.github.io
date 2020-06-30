@@ -30,9 +30,11 @@ body {
   display: block;
   padding: 16px 16px;
   text-decoration: none;
+  color: #ffffff;
 }
 .side-panel li a:hover {
   background-color: #ffffff;
+  color: #000000;
 }
 
 .main-panel {
@@ -54,14 +56,15 @@ h1 {
   font-size: 60px;
   text-align: left;
 }
-h1::first-letter {
-  color: #ff0000f5;
-  font-size: 90px;
-}
 
 address {
   font-family: "Inconsolata", monospace;
   text-align: left;
+}
+
+.first-letter::first-letter {
+  color: #ff0000f5;
+  font-size: 1.5em;
 }
 
 .sharp.md-dark {
