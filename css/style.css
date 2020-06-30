@@ -13,18 +13,31 @@ body {
 
 .side-panel {
   text-align: center;
-  float: left;
   position: fixed;
   height: 100%;
   width: 15%;
   margin: auto;
   z-index: 1;
-  overflow-x: hidden;
+  overflow: auto;
   padding-top: 20px;
+}
+.side-panel ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.side-panel li a {
+  display: block;
+  padding: 16px 16px;
+  text-decoration: none;
+}
+.side-panel li a:hover {
+  background-color: #ffffff;
 }
 
 .main-panel {
   margin-left: 15%;
+  padding: 1%;
 }
 
 section {
@@ -40,6 +53,10 @@ header {
 h1 {
   font-size: 60px;
   text-align: left;
+}
+h1::first-letter {
+  color: #ff0000f5;
+  font-size: 90px;
 }
 
 address {
