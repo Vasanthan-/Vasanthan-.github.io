@@ -117,6 +117,14 @@ header nav a:hover{
   top: 0;
 }
 
+.cave{
+  transform-origin: 50% 80%;
+}
+
+.moon{
+  transform-origin: 50% 100%;
+}
+
 .clearfix::after {
   content: "";
   clear: both;
