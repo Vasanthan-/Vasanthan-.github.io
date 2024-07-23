@@ -31,7 +31,7 @@ body {
 
 .side-panel {
   text-align: center;
-  position: fixed;
+  position: relative;
   height: 100%;
   width: 15%;
   margin: auto;
