@@ -65,6 +65,9 @@ header {
   color: #CC1C58;
   font-size: 22px;
   width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   /* padding: 20px; */
   /* text-align: center; */
 }
