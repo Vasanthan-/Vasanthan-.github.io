@@ -73,6 +73,18 @@ header {
   /* text-align: center; */
 }
 
+header nav a{
+  font-size: 26px;
+  margin-left: 78px;
+  color: #CC1C58;
+  transition: .3s;
+}
+
+header nav .active,
+header nav a:hover{
+  color: #FFFAD6;
+}
+
 .clearfix::after {
   content: "";
   clear: both;
