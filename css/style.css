@@ -98,6 +98,7 @@ header nav a:hover{
 
 .home img{
   position: absolute;
+  pointer-events: none;
 }
 
 .clearfix::after {
