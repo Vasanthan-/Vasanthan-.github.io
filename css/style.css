@@ -21,9 +21,9 @@ body {
   color: #FFFAD6;
 }
 
-.top-panel {
+/* .top-panel {
   width: 100%;
-}
+} */
 
 .side-panel {
   text-align: center;
@@ -31,7 +31,7 @@ body {
   height: 100%;
   width: 15%;
   margin: auto;
-  z-index: 1;
+  z-index: 99;
   overflow: auto;
 }
 .side-panel ul {
