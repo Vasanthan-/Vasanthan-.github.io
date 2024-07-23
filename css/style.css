@@ -78,7 +78,7 @@ header {
 }
 
 header nav a{
-  font-size: 15px;
+  font-size: 20px;
   margin-left: 78px;
   color: #CC1C58;
   transition: .3s;
@@ -111,6 +111,10 @@ header nav a:hover{
 .stars{
   height: 100%;
   left: 0;
+}
+
+.mountains{
+  top: 0;
 }
 
 .clearfix::after {
