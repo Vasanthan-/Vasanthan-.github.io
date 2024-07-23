@@ -1,5 +1,7 @@
 /* Vasanthan's Personal Website Cascading Style Sheet */
 * {
+  padding: 0;
+  margin: 0;  
   font-family: "Comic Sans MS", cursive, sans-serif;
 }
 
