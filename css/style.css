@@ -3,7 +3,7 @@
   padding: 0;
   margin: 0;
   text-decoration: none;
-  /* box-sizing: border-box; */
+  box-sizing: border-box;
   font-family: "Comic Sans MS", cursive, sans-serif;
 }
 
@@ -68,6 +68,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 30px 90px;
   /* padding: 20px; */
   /* text-align: center; */
 }
