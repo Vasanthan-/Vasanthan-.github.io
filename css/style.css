@@ -78,7 +78,7 @@ header {
 }
 
 header nav a{
-  font-size: 20px;
+  font-size: 15px;
   margin-left: 78px;
   color: #CC1C58;
   transition: .3s;
@@ -91,7 +91,7 @@ header nav a:hover{
 
 .home p{
   position: absolute;
-  color: #CC1C58;
+  color:#FFFAD6;
   font-size: 50px;
   z-index: 99;
 }
